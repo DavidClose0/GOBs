@@ -12,13 +12,13 @@ public class Goal
     }
 
     // Return current discontentment
-    public float getDiscontentment()
+    public float GetDiscontentment()
     {
         return value * value;
     }
 
     // Return discontentment for new value
-    public float calculateDiscontentment(float newValue)
+    public float CalculateDiscontentment(float newValue)
     {
         return newValue * newValue;
     }
